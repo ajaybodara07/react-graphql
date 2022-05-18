@@ -1,0 +1,55 @@
+{
+  "name": "react-graphql-demo",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "graphql": "^15.3.0",
+    "graphql-request": "^3.2.0",
+    "node-sass": "^4.14.1",
+    "npm-force-resolutions": "^0.0.10",
+    "qs": "^6.7.0",
+    "react": "^16.8.6",
+    "react-datocms": "^1.0.5",
+    "react-dom": "^16.8.6",
+    "react-imgix": "^8.6.3",
+    "react-markdown": "^4.1.0",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "^3.4.4",
+    "typescript": "^4.1.3"
+  },
+  "resolutions": {
+    "browserslist": "4.16.6",
+    "dns-packet": "1.3.2",
+    "elliptic": "6.5.4",
+    "ansi-styles": "3.2.0",
+    "glob-parent": "5.1.2",
+    "immer": "8.0.1",
+    "postcss": "7.0.36",
+    "trim": "0.0.3",
+    "trim-newlines": "3.0.1"
+  },
+  "scripts": {
+    "preinstall": "npx npm-force-resolutions",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "lint": "standard --fix"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "browserslist": "^4.16.6"
+  }
+}
